@@ -1,10 +1,48 @@
 .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+
+h1 {
+  color: gold;
+  font-weight: bold;
+  font-family:'Papyrus';
+}
+
+h3 {
+  color: pink;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family:'Papyrus';
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-family:'Papyrus';
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body{
+  background-color: purple;
+}
+
+.com {
+  border: 5px groove gold;  
+  border-radius: 9px;
+  background-color:black;
+  color: purple;
+}
+
+.com p {
+  color: fuchsia;
 }
 
 @media (prefers-reduced-motion: no-preference) {
